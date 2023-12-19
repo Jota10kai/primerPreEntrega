@@ -87,3 +87,25 @@ function calcularDiasVida(edad) {
 
 let diasVida = calcularDiasVida(edad);
 console.log("Tus dias de vida son: " + diasVida);
+
+console.log("--------------------------------------------------------------");
+console.log("SEGUNDA ENTREGA");
+console.log("--------------------------------------------------------------");
+//Incorporando un Array en mi proyecto.
+let meses = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio",
+             "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];  
+//muestro el mes de nacimiento con palabras
+console.log("Naciste en " + meses[mes - 1]);
+
+
+while (edad < 18) {
+    alert("Sos menor de edad");
+    edad = prompt("Ingrese su edad");
+}
+if (edad >= 18) {
+    alert("Sos mayor de edad");
+}
+
+
+///por falta de luz no llegue a terinar. tuvimos un mal temporal
+    
